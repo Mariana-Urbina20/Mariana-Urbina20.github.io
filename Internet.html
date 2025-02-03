@@ -36,44 +36,35 @@
         }
 
         .title-container {
-            height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             position: relative;
+            padding-top: 80px;
         }
 
         h1 {
             color: #d85f8e;
             font-size: 64px;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             font-family: 'Bebas Neue', sans-serif;
-        }
-
-        .content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            padding: 20px;
-            text-align: left;
         }
 
         .welcome-text {
             font-size: 24px;
             font-family: 'Times New Roman', serif;
-            margin-top: 0;
             color: #444;
             width: 60%;
+            margin-top: 0;
         }
 
         .image-text-container {
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 20px;
+            justify-content: space-evenly;
             margin-top: 20px;
+            flex-wrap: wrap;
         }
 
         .image-text-container img {
@@ -81,12 +72,10 @@
             border-radius: 10px;
         }
 
-        .topics-container {
+        .topics-section {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            margin-top: 20px;
         }
 
         .topics-title {
@@ -97,7 +86,6 @@
         }
 
         .buttons-container {
-            margin-top: 10px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -112,9 +100,6 @@
             border-radius: 5px;
             font-size: 16px;
             transition: background 0.3s;
-            display: block;
-            width: 250px;
-            text-align: center;
         }
 
         .button:hover {
@@ -129,26 +114,23 @@
     
     <div class="title-container">
         <h1>Internet</h1>
-    </div>
-    
-    <div class="content">
         <p class="welcome-text">Dans notre vie quotidienne, Internet est devenu un outil essentiel pour la communication, l'apprentissage et l'innovation. Mais comment fonctionne réellement ce vaste réseau mondial ? Pour mieux comprendre ses fondements, nous explorerons des sujets clés tels que l'histoire d'Internet, les protocoles essentiels qui garantissent la transmission des données et les mécanismes permettant la connectivité entre les appareils.</p>
     </div>
     
-    <div class="topics-container">
-        <div class="image-text-container">
-            <img src="internet_image.jpg" alt="Internet">
+    <div class="image-text-container">
+        <div class="topics-section">
             <div class="topics-title">Thèmes clés</div>
+            <div class="buttons-container">
+                <a href="https://mariana-urbina20.github.io/Réseau%20pair%20à%20pair.html" class="button">Réseau pair à pair</a>
+                <a href="https://mariana-urbina20.github.io/Routage.html" class="button">Routage</a>
+                <a href="https://mariana-urbina20.github.io/Protocole%20TCP.html" class="button">Protocole TCP</a>
+                <a href="https://mariana-urbina20.github.io/Protocole%20IP.html" class="button">Protocole IP</a>
+                <a href="https://mariana-urbina20.github.io/Histoire%20d'internet.html" class="button">Histoire d'Internet</a>
+                <a href="https://mariana-urbina20.github.io/DNS.html" class="button">DNS</a>
+                <a href="https://mariana-urbina20.github.io/Conversion%20décimal%20à%20binaire.html" class="button">Conversion décimal à binaire</a>
+            </div>
         </div>
-        <div class="buttons-container">
-            <a href="https://mariana-urbina20.github.io/Réseau%20pair%20à%20pair.html" class="button">Réseau pair à pair</a>
-            <a href="https://mariana-urbina20.github.io/Routage.html" class="button">Routage</a>
-            <a href="https://mariana-urbina20.github.io/Protocole%20TCP.html" class="button">Protocole TCP</a>
-            <a href="https://mariana-urbina20.github.io/Protocole%20IP.html" class="button">Protocole IP</a>
-            <a href="https://mariana-urbina20.github.io/Histoire%20d'internet.html" class="button">Histoire d'Internet</a>
-            <a href="https://mariana-urbina20.github.io/DNS.html" class="button">DNS</a>
-            <a href="https://mariana-urbina20.github.io/Conversion%20décimal%20à%20binaire.html" class="button">Conversion décimal à binaire</a>
-        </div>
+        <img src="images/DE4D3F4C-60F7-4BC9-AA70-D05251F57679.jpeg" alt="Internet Illustration">
     </div>
 </body>
 </html>
