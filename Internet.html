@@ -35,47 +35,55 @@
             font-weight: bold;
         }
 
+        .home-icon {
+            width: 24px;
+            height: 24px;
+        }
+
         .title-container {
+            height: 50vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             position: relative;
-            padding-top: 80px;
         }
 
         h1 {
             color: #d85f8e;
             font-size: 64px;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
             font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
         }
 
         .welcome-text {
             font-size: 24px;
             font-family: 'Times New Roman', serif;
+            margin-top: 0;
             color: #444;
             width: 60%;
-            margin-top: 0;
         }
 
         .image-text-container {
             display: flex;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: center;
+            gap: 40px;
             margin-top: 20px;
-            flex-wrap: wrap;
         }
 
         .image-text-container img {
-            width: 800px;
+            width: 300px;
             border-radius: 10px;
-        }
-
-        .topics-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
 
         .topics-title {
@@ -88,7 +96,7 @@
         .buttons-container {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             gap: 10px;
         }
 
@@ -110,6 +118,9 @@
 <body>
     <div class="top-bar">
         <div class="author">Par Mariana Urbina</div>
+        <a href="https://mariana-urbina20.github.io/accueil.html">
+            <img src="images/home-icon.png" alt="Accueil" class="home-icon">
+        </a>
     </div>
     
     <div class="title-container">
@@ -118,19 +129,17 @@
     </div>
     
     <div class="image-text-container">
-        <div class="topics-section">
+        <div class="buttons-container">
             <div class="topics-title">Thèmes clés</div>
-            <div class="buttons-container">
-                <a href="https://mariana-urbina20.github.io/Réseau%20pair%20à%20pair.html" class="button">Réseau pair à pair</a>
-                <a href="https://mariana-urbina20.github.io/Routage.html" class="button">Routage</a>
-                <a href="https://mariana-urbina20.github.io/Protocole%20TCP.html" class="button">Protocole TCP</a>
-                <a href="https://mariana-urbina20.github.io/Protocole%20IP.html" class="button">Protocole IP</a>
-                <a href="https://mariana-urbina20.github.io/Histoire%20d'internet.html" class="button">Histoire d'Internet</a>
-                <a href="https://mariana-urbina20.github.io/DNS.html" class="button">DNS</a>
-                <a href="https://mariana-urbina20.github.io/Conversion%20décimal%20à%20binaire.html" class="button">Conversion décimal à binaire</a>
-            </div>
+            <a href="https://mariana-urbina20.github.io/Réseau%20pair%20à%20pair.html" class="button">Réseau pair à pair</a>
+            <a href="https://mariana-urbina20.github.io/Routage.html" class="button">Routage</a>
+            <a href="https://mariana-urbina20.github.io/Protocole%20TCP.html" class="button">Protocole TCP</a>
+            <a href="https://mariana-urbina20.github.io/Protocole%20IP.html" class="button">Protocole IP</a>
+            <a href="https://mariana-urbina20.github.io/Histoire%20d'internet.html" class="button">Histoire d'Internet</a>
+            <a href="https://mariana-urbina20.github.io/DNS.html" class="button">DNS</a>
+            <a href="https://mariana-urbina20.github.io/Conversion%20décimal%20à%20binaire.html" class="button">Conversion décimal à binaire</a>
         </div>
-        <img src="Internet-–-Que-es-caracteristicas-historia-y-usos-2.jpg" alt="Internet Illustration">
+        <img src="images/DE4D3F4C-60F7-4BC9-AA70-D05251F57679.jpeg" alt="Internet Illustration">
     </div>
 </body>
 </html>
