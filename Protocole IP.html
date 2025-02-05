@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocole IP</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        
+        body {
+            background-color: #f8c8e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #d85f8e;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .author {
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .home-icon {
+            width: 30px;
+            height: 30px;
+        }
+
+        .title-container {
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        h1 {
+            color: #d85f8e;
+            font-size: 64px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #444;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        video {
+            width: 60%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="author">Par Mariana Urbina</div>
+        <a href="https://mariana-urbina20.github.io/accueil.html">
+            <img src="images/home-icon.png" alt="Accueil" class="home-icon">
+        </a>
+    </div>
+    
+    <div class="title-container">
+        <h1>Protocole IP</h1>
+    </div>
+    
+    <div class="content">
+        <p><strong>Introduction au Protocole IP</strong></p>
+        <p>Le <strong>Protocole Internet (IP, pour Internet Protocol en anglais)</strong> est un élément fondamental des réseaux informatiques et d’Internet. Il permet l’identification et la communication entre les appareils connectés en attribuant à chacun une adresse IP unique.</p>
+        <p>Le rôle principal d’IP est d’assurer le routage des paquets de données, en déterminant le chemin le plus efficace pour qu’un message atteigne sa destination. Il fonctionne en tandem avec d'autres protocoles, comme le TCP (Transmission Control Protocol), qui garantit la livraison fiable des données.</p>
+        <p>Il existe deux versions principales du protocole IP :</p>
+        <p><strong>IPv4</strong> (Internet Protocol version 4), qui utilise des adresses sur 32 bits (exemple : 192.168.1.1) et reste le plus répandu.</p>
+        <p><strong>IPv6</strong> (Internet Protocol version 6), qui utilise des adresses sur 128 bits (exemple : 2001:db8::1) et a été introduit pour pallier l’épuisement des adresses IPv4.</p>
+        <p>Le <strong>protocole IP</strong> est essentiel au fonctionnement d’Internet et des réseaux locaux, permettant aux ordinateurs, smartphones et autres appareils de communiquer efficacement à l’échelle mondiale.</p>
+    </div>
+    
+    <div class="video-container">
+        <video controls>
+            <source src="videos/ip-video.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+    </div>
+</body>
+</html>
