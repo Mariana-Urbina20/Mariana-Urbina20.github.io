@@ -56,41 +56,13 @@
             font-family: 'Bebas Neue', sans-serif;
         }
 
-        .content {
+        .content-container {
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-direction: column;
-            padding: 10px;
-            text-align: center;
-        }
-
-        .welcome-text {
-            font-size: 24px;
-            font-family: 'Times New Roman', serif;
-            margin-top: 0;
-            color: #444;
-            width: 60%;
-        }
-
-        .img src{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 40px;
-            margin-top: 20px;
-        }
-
-        .image-text-container img {
-            width: 150px;
-            border-radius: 10px;
-        }
-
-        .topics-title {
-            font-size: 28px;
-            font-family: 'Times New Roman', serif;
-            color: #d85f8e;
-            font-weight: bold;
+            flex-direction: row;
+            padding: 20px;
+            text-align: left;
         }
 
         .buttons-container {
@@ -98,6 +70,14 @@
             flex-direction: column;
             align-items: flex-start;
             gap: 10px;
+            margin-right: 20px;
+        }
+
+        .topics-title {
+            font-size: 28px;
+            font-family: 'Times New Roman', serif;
+            color: #d85f8e;
+            font-weight: bold;
         }
 
         .button {
@@ -112,6 +92,11 @@
 
         .button:hover {
             background-color: #b24a70;
+        }
+
+        .image-container img {
+            width: 150px;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -128,7 +113,7 @@
         <p class="welcome-text">Dans notre vie quotidienne, Internet est devenu un outil essentiel pour la communication, l'apprentissage et l'innovation. Mais comment fonctionne réellement ce vaste réseau mondial ? Pour mieux comprendre ses fondements, nous explorerons des sujets clés tels que l'histoire d'Internet, les protocoles essentiels qui garantissent la transmission des données et les mécanismes permettant la connectivité entre les appareils.</p>
     </div>
     
-    <img src="image-internet.jpg">
+    <div class="content-container">
         <div class="buttons-container">
             <div class="topics-title">Thèmes clés</div>
             <a href="https://mariana-urbina20.github.io/Histoire%20d´internet.html" class="button">Histoire d'Internet</a>
@@ -138,6 +123,9 @@
             <a href="https://mariana-urbina20.github.io/Réseau%20pair%20à%20pair.html" class="button">Réseau pair à pair</a>
             <a href="https://mariana-urbina20.github.io/Routage.html" class="button">Routage</a>
             <a href="https://mariana-urbina20.github.io/Conversion%20décimal%20à%20binaire.html" class="button">Conversion décimal à binaire</a>
+        </div>
+        <div class="image-container">
+            <img src="image-internet.jpg" alt="Internet">
         </div>
     </div>
 </body>
