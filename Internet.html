@@ -73,6 +73,72 @@
             width: 60%;
         }
 
-        /* Ajuste del tamaño de la imagen */
-        .small-image {
-            max-width: 250p
+        .img src{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .image-text-container img {
+            width: 150px;
+            border-radius: 10px;
+        }
+
+        .topics-title {
+            font-size: 28px;
+            font-family: 'Times New Roman', serif;
+            color: #d85f8e;
+            font-weight: bold;
+        }
+
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .button {
+            background-color: #d85f8e;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+
+        .button:hover {
+            background-color: #b24a70;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="author">Par Mariana Urbina</div>
+        <a href="https://mariana-urbina20.github.io/accueil.html">
+            <img src="house.jpg" alt="Accueil" class="home-icon">
+        </a>
+    </div>
+    
+    <div class="title-container">
+        <h1>Internet</h1>
+        <p class="welcome-text">Dans notre vie quotidienne, Internet est devenu un outil essentiel pour la communication, l'apprentissage et l'innovation. Mais comment fonctionne réellement ce vaste réseau mondial ? Pour mieux comprendre ses fondements, nous explorerons des sujets clés tels que l'histoire d'Internet, les protocoles essentiels qui garantissent la transmission des données et les mécanismes permettant la connectivité entre les appareils.</p>
+    </div>
+    
+    <img src="image-internet.jpg">
+        <div class="buttons-container">
+            <div class="topics-title">Thèmes clés</div>
+            <a href="https://mariana-urbina20.github.io/Histoire%20d´internet.html" class="button">Histoire d'Internet</a>
+            <a href="https://mariana-urbina20.github.io/DNS.html" class="button">DNS</a>
+            <a href="https://mariana-urbina20.github.io/Protocole%20TCP.html" class="button">Protocole TCP</a>
+            <a href="https://mariana-urbina20.github.io/Protocole%20IP.html" class="button">Protocole IP</a>
+            <a href="https://mariana-urbina20.github.io/Réseau%20pair%20à%20pair.html" class="button">Réseau pair à pair</a>
+            <a href="https://mariana-urbina20.github.io/Routage.html" class="button">Routage</a>
+            <a href="https://mariana-urbina20.github.io/Conversion%20décimal%20à%20binaire.html" class="button">Conversion décimal à binaire</a>
+        </div>
+    </div>
+</body>
+</html>
