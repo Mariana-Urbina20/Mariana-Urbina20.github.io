@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Définition et Résolution</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
 
+        body {
+            background-color: #f8c8e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #d85f8e;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .author {
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .home-icon {
+            width: 30px;
+            height: 30px;
+        }
+
+        .title-container {
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        h1 {
+            color: #d85f8e;
+            font-size: 64px;
+            margin-bottom: 10px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .text-container {
+            font-size: 20px;
+            font-family: 'Times New Roman', serif;
+            color: #333;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .image-container img {
+            width: 550px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="author">Par Mariana Urbina</div>
+        <a href="https://mariana-urbina20.github.io/accueil.html">
+            <img src="house.jpg" alt="Accueil" class="home-icon">
+        </a>
+    </div>
+    
+    <div class="title-container">
+        <h1>Définition et Résolution</h1>
+    </div>
+    
+    <div class="text-container">
+        📸 Définition et résolution en photographie numérique<br><br>
+        🔹 <b>Définition</b><br>
+        La définition d’une image numérique correspond au nombre total de pixels qui la composent. Elle s’exprime en largeur × hauteur (ex. : 6000 × 4000 px = 24 mégapixels). Plus il y a de pixels, plus l’image est détaillée.<br><br>
+        🔹 <b>Résolution</b><br>
+        La résolution indique la densité de pixels par unité de surface, exprimée en dpi (dots per inch - points par pouce) :<br>
+        <ul>
+            <li>72 dpi → Idéal pour l’affichage écran</li>
+            <li>300 dpi → Qualité optimale pour l’impression</li>
+        </ul>
+        📏 <b>Différence clé</b><br>
+        Une haute définition signifie plus de pixels dans l’image.<br>
+        Une haute résolution signifie plus de pixels par unité de surface (meilleure netteté).
+    </div>
+    
+    <div class="image-container">
+        <img src="" alt="Définition et Résolution">
+    </div>
+</body>
+</html>
