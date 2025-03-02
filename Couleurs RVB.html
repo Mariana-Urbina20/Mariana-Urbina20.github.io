@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couleurs RVB</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap');
 
+        body {
+            background-color: #f8c8e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #d85f8e;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .author {
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .home-icon {
+            width: 30px;
+            height: 30px;
+        }
+
+        .title-container {
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        h1 {
+            color: #d85f8e;
+            font-size: 64px;
+            margin-bottom: 10px;
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Times New Roman', serif;
+        }
+
+        .image-container img {
+            width: 550px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="author">Par Mariana Urbina</div>
+        <a href="https://mariana-urbina20.github.io/accueil.html">
+            <img src="house.jpg" alt="Accueil" class="home-icon">
+        </a>
+    </div>
+    
+    <div class="title-container">
+        <h1>Couleurs RVB</h1>
+    </div>
+    
+    <div class="content-container">
+        <p>En photographie numérique, les couleurs RVB (Rouge, Vert, Bleu) représentent le système de couleur additif utilisé sur les écrans et les capteurs des appareils photo numériques.</p>
+        <p><strong>📸 Que signifie RVB ?</strong><br>
+        C’est un modèle de couleur basé sur la combinaison de trois couleurs primaires de lumière :</p>
+        <p><strong>R (Rouge)<br>
+        V (Vert)<br>
+        B (Bleu)</strong></p>
+        <p>Ces couleurs se mélangent à différentes intensités pour créer toutes les autres couleurs visibles dans une image numérique.</p>
+        <p><strong>🌈 Comment cela fonctionne en photographie numérique ?</strong><br>
+        Les appareils photo numériques possèdent un capteur photosensible qui capture la lumière. Comme le capteur ne distingue pas les couleurs, un filtre de Bayer est utilisé pour répartir les pixels sensibles au rouge, au vert et au bleu selon un motif spécifique. Ensuite, le processeur de l’appareil reconstruit l’image en couleur à partir de ces données.</p>
+        <p><strong>🎨 Exemple de combinaison des couleurs RVB</strong></p>
+        <p>Rouge + Vert = Jaune<br>
+        Rouge + Bleu = Magenta<br>
+        Vert + Bleu = Cyan<br>
+        Rouge + Vert + Bleu (intensité maximale) = Blanc<br>
+        Absence de lumière (intensité nulle des trois couleurs) = Noir</p>
+    </div>
+    
+    <div class="image-container">
+        <img src="" alt="Couleurs RVB">
+    </div>
+</body>
+</html>
