@@ -41,7 +41,7 @@
         }
 
         .title-container {
-            height: 50vh;
+            height: 40vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -98,6 +98,17 @@
             width: 550px;
             border-radius: 10px;
         }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        video {
+            width: 60%;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -123,5 +134,15 @@
             <img src="Appareil_Photo.jpg" alt="Photographie Numérique">
         </div>
     </div>
+
+    <div class="video-container">
+        <video controls>
+            <source src="video1838341637.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+    </div>
+
 </body>
 </html>
+
+
